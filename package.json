@@ -1,0 +1,61 @@
+{
+    "author": "Plain Sailing Pixels ",
+    "dependencies": {
+        "pebble-clay": "^1.0.1"
+    },
+    "keywords": [],
+    "name": "simplicity",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "Simplicity & Time",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "BackgroundColor",
+            "ForegroundColor",
+            "HourColor",
+            "btfColor",
+            "btbColor",
+            "Cel",
+            "Farn",
+            "KEY_TEMPERATURE",
+            "KEY_CONDITIONS",
+            "DateColor"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/BigSky.ttf",
+                    "name": "FONT_SKY_36",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/BigSky1.ttf",
+                    "name": "FONT_SKY_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/download (36).png",
+                    "menuIcon": true,
+                    "name": "scr",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "169d8c6a-af73-4ce8-aa06-7514941b9d5e",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.35.0"
+}
